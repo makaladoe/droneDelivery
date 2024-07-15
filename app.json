@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DroneApp1",
+    "slug": "DroneApp1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images.jpg",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.france.DroneAPP"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2ea8f9ac-a2c5-4466-8235-b8ea738cc6f3"
+      }
+    }
+  }
+}
